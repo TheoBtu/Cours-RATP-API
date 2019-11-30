@@ -1,5 +1,18 @@
 body {
-    background-color: #6f9cbb;
+    background-color: #2C232C;
+}
+
+h1{
+    color: #00CDAD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #00CDAD;
 }
 
 .blink {
@@ -13,23 +26,38 @@ body {
 }
 
 .col--lines .time {
-    background-color: #000000;
-    color: #FFFF00;
+    background-color: #2C232C;
+    color: #00CDAD;
 }
 
 .col--traffic {
-    background-color: #ffffff;
+    background-color: #2C232C;
 }
 
 .lines div {
-    background-color: #ffffff;
+    background-color: #837A7C;
     padding: 20px;
+    border-radius: 50px;
+    margin: 20px;
 }
 
 .line--critical {
-    background-color: #FF0000 !important;
+    background-color: #DC234B !important;
 }
 
 .line--works {
-    background-color: #FFFF00 !important;
+    background-color: #CFC825 !important;
+}
+
+.col-sm-8{
+    color: whitesmoke;
+}
+
+.col-sm-4{
+    color: #00CDAD;
+}
+
+.row{
+    text-align:center;
+    margin-bottom: 20px;
 }
